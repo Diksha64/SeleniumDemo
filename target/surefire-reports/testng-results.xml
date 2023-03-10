@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-07T16:12:27 IST" name="Surefire suite" finished-at="2023-03-07T16:12:27 IST" duration-ms="39">
+    <groups>
+      <group name="Sanity">
+        <method signature="TestG.LoginByEmail()[pri:1, instance:GroupingAndDataProvider.TestG@29626d54]" name="LoginByEmail" class="GroupingAndDataProvider.TestG"/>
+        <method signature="TestG.LoginByFB()[pri:2, instance:GroupingAndDataProvider.TestG@29626d54]" name="LoginByFB" class="GroupingAndDataProvider.TestG"/>
+        <method signature="TestG.LoginByTwitter()[pri:3, instance:GroupingAndDataProvider.TestG@29626d54]" name="LoginByTwitter" class="GroupingAndDataProvider.TestG"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="TestG.LoginByEmail()[pri:1, instance:GroupingAndDataProvider.TestG@29626d54]" name="LoginByEmail" class="GroupingAndDataProvider.TestG"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test started-at="2023-03-07T16:12:27 IST" name="Surefire test" finished-at="2023-03-07T16:12:27 IST" duration-ms="39">
+      <class name="Annotations_Sel.Test1">
+        <test-method is-config="true" signature="Login()[pri:0, instance:Annotations_Sel.Test1@433d61fb]" started-at="2023-03-07T16:12:27 IST" name="Login" finished-at="2023-03-07T16:12:27 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="l1()[pri:0, instance:Annotations_Sel.Test1@433d61fb]" started-at="2023-03-07T16:12:27 IST" name="l1" finished-at="2023-03-07T16:12:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- l1 -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:Annotations_Sel.Test1@433d61fb]" started-at="2023-03-07T16:12:27 IST" name="Logout" finished-at="2023-03-07T16:12:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:Annotations_Sel.Test1@433d61fb]" started-at="2023-03-07T16:12:27 IST" name="Login" finished-at="2023-03-07T16:12:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="search()[pri:1, instance:Annotations_Sel.Test1@433d61fb]" started-at="2023-03-07T16:12:27 IST" name="search" finished-at="2023-03-07T16:12:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:Annotations_Sel.Test1@433d61fb]" started-at="2023-03-07T16:12:27 IST" name="Logout" finished-at="2023-03-07T16:12:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:Annotations_Sel.Test1@433d61fb]" started-at="2023-03-07T16:12:27 IST" name="Login" finished-at="2023-03-07T16:12:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="ADSearch()[pri:2, instance:Annotations_Sel.Test1@433d61fb]" started-at="2023-03-07T16:12:27 IST" name="ADSearch" finished-at="2023-03-07T16:12:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ADSearch -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:Annotations_Sel.Test1@433d61fb]" started-at="2023-03-07T16:12:27 IST" name="Logout" finished-at="2023-03-07T16:12:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="lo1()[pri:3, instance:Annotations_Sel.Test1@433d61fb]" started-at="2023-03-07T16:12:27 IST" name="lo1" finished-at="2023-03-07T16:12:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lo1 -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:Annotations_Sel.Test1@433d61fb]" started-at="2023-03-07T16:12:27 IST" name="Login" finished-at="2023-03-07T16:12:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:Annotations_Sel.Test1@433d61fb]" started-at="2023-03-07T16:12:27 IST" name="Logout" finished-at="2023-03-07T16:12:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+      </class> <!-- Annotations_Sel.Test1 -->
+      <class name="GroupingAndDataProvider.TestG">
+        <test-method signature="LoginByEmail()[pri:1, instance:GroupingAndDataProvider.TestG@29626d54]" started-at="2023-03-07T16:12:27 IST" name="LoginByEmail" finished-at="2023-03-07T16:12:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginByEmail -->
+        <test-method signature="LoginByFB()[pri:2, instance:GroupingAndDataProvider.TestG@29626d54]" started-at="2023-03-07T16:12:27 IST" name="LoginByFB" finished-at="2023-03-07T16:12:27 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginByFB -->
+        <test-method signature="LoginByTwitter()[pri:3, instance:GroupingAndDataProvider.TestG@29626d54]" started-at="2023-03-07T16:12:27 IST" name="LoginByTwitter" finished-at="2023-03-07T16:12:27 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginByTwitter -->
+      </class> <!-- GroupingAndDataProvider.TestG -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
